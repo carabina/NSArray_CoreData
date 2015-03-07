@@ -14,6 +14,8 @@
 		10E234EF1AAB889000484903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E234EE1AAB889000484903 /* Images.xcassets */; };
 		10E234F21AAB889000484903 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E234F01AAB889000484903 /* LaunchScreen.xib */; };
 		10E234FE1AAB889100484903 /* NSArray_CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E234FD1AAB889100484903 /* NSArray_CoreDataTests.swift */; };
+		10E235081AAB891200484903 /* NSArray+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E235071AAB891200484903 /* NSArray+CoreData.swift */; };
+		10E2350A1AAB8A1900484903 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E235091AAB8A1900484903 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		10E234F71AAB889000484903 /* NSArray_CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArray_CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E234FC1AAB889100484903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10E234FD1AAB889100484903 /* NSArray_CoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSArray_CoreDataTests.swift; sourceTree = "<group>"; };
+		10E235071AAB891200484903 /* NSArray+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+CoreData.swift"; sourceTree = "<group>"; };
+		10E235091AAB8A1900484903 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E2350A1AAB8A1900484903 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 		10E234D61AAB889000484903 = {
 			isa = PBXGroup;
 			children = (
+				10E235091AAB8A1900484903 /* CoreData.framework */,
 				10E234E11AAB889000484903 /* NSArray_CoreData */,
 				10E234FA1AAB889000484903 /* NSArray_CoreDataTests */,
 				10E234E01AAB889000484903 /* Products */,
@@ -86,6 +92,7 @@
 				10E234F01AAB889000484903 /* LaunchScreen.xib */,
 				10E234E61AAB889000484903 /* NSArray_CoreData.xcdatamodeld */,
 				10E234E21AAB889000484903 /* Supporting Files */,
+				10E235071AAB891200484903 /* NSArray+CoreData.swift */,
 			);
 			path = NSArray_CoreData;
 			sourceTree = "<group>";
@@ -218,6 +225,7 @@
 				10E234EA1AAB889000484903 /* ViewController.swift in Sources */,
 				10E234E51AAB889000484903 /* AppDelegate.swift in Sources */,
 				10E234E81AAB889000484903 /* NSArray_CoreData.xcdatamodeld in Sources */,
+				10E235081AAB891200484903 /* NSArray+CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
