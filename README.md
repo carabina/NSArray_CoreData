@@ -5,7 +5,7 @@ Extension of NSArray for CoreData in Swift
 
 Well, I feel NSArray does so much awesome stuff that just lacking the ability of nice integration with CoreData is something it feels deprived of.
 
-I am currently working on a project in which I am developing and using it at the same time. I have implemented methods supporting fetching records from the CoreData database which I think are the most important ones (I think).
+I am currently working on a project in which I am developing and using it at the same time. I have implemented methods supporting fetching records from the CoreData database which I think are the most important ones.
 
 ## Methods implemented for now
 
